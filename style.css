@@ -13,6 +13,8 @@ body {
 
 h1 {
   position: relative;
+  border: 1px solid black;
+  background: rgba(128,0,128,0.2)
 }
 
 .navburger {
@@ -20,6 +22,34 @@ h1 {
 }
 
 .navburger__patty {
-  height: 20px;
-  width: 50px;
+  height: 12px;
+  width: 48px;
+  background: black;
+}
+
+.navburger__patty:not(:first-child) {
+  margin-top: 6px;
+}
+
+#klattring {
+  margin-top: 1000px;
+}
+
+#personer {
+  margin-top: 1000px;
+  color: orange;
+}
+
+.menu {
+  position: absolute;
+  /*transform: translateY(-250px);*/
+  transition: transform 0.5s ease-in-out;
+}
+
+.showMenu {
+  transform: translateY(-250px);
+}
+
+blockquote p:not(:last-child) {
+  font-style: italic;
 }

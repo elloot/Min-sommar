@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+    font-size: 15pt;
+    margin: 0 auto;
+    width: 75%;
+    text-align: center;
+}
+
+h1 {
+  position: relative;
+}
+
+.navburger {
+  float: right;
+}
+
+.navburger__patty {
+  height: 20px;
+  width: 50px;
+}
